@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Weather app</title>
+    </head>
+    <body>
+
+        <div class="location-form-container">
+            <form class="location-form">
+                <input type="text" class="location-input" placeholder="Please enter a town, city, or country">
+                <button class="search-button" disabled><i class="fas fa-search fa-lg"></i></button>
+            </form>
+            
+            <button class="current-location-button"><i class="fas fa-location-arrow fa-lg"></i></button>
+        </div>
+
+        <div class="location">
+            <h1 class="location-timezone"></h1>
+            <img src="" alt="icon" class="icon">
+        </div>
+        <div class="temperature">
+            <div class="degree-section">
+                <h2 class="temperature-degree"></h2>
+                <span>C</span>
+            </div>
+            <div class="temperature-description"></div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
